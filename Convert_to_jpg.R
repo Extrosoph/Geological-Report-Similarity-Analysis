@@ -3,8 +3,6 @@ library(magick)
 setwd('C:/Users/nick2/Desktop/Capstone Code/Nick Annotating Files')
 
 
-# ... [earlier parts of your code]
-
 # Loop through each subfolder
 for (subfolder in subfolders) {
   
