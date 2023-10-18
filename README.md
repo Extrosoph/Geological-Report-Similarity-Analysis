@@ -20,7 +20,8 @@ Develop a geology-focused system capable of interpreting table structures, extra
 3. Update wd to the working directory containing the WAMEX A File spreadsheet
 
 **Output:**
-The script will output all A files and their extracted files in a folder within the working directory called WAMEX_DATA_EXTRACTED. Files are called by their A File Number
+- The script will output all A files and their extracted files in a folder within the working directory called WAMEX_DATA_EXTRACTED.
+- Files are called by their A File Number
 
 
 ## Convert To Jpg Script
@@ -33,4 +34,6 @@ The script will output all A files and their extracted files in a folder within 
 1. Update main_dir to the WAMEX_DATA_EXTRACTED file created from the WAMEX Web Scraping Script.
 
 **Output:**
-This script will convert all pdf documents into jpg files. Once converted it will store all the non jpg files in a folder called Original_files. jpg files are names in the following format AFile_DocumentNum_PageNum for example Afile '111' Document 1 and Page 1 will be called 111_1_1.jpg. 
+- This script will convert all pdf documents into jpg files.
+- Once converted it will store all the non jpg files in a folder called Original_files.
+- jpg files are names in the following format AFile_DocumentNum_PageNum for example Afile '111' Document 1 and Page 1 will be called 111_1_1.jpg. 
