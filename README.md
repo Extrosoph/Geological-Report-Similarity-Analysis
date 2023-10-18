@@ -36,4 +36,28 @@ Develop a geology-focused system capable of interpreting table structures, extra
 **Output:**
 - This script will convert all pdf documents into jpg files.
 - Once converted it will store all the non jpg files in a folder called Original_files.
-- jpg files are names in the following format AFile_DocumentNum_PageNum for example Afile '111' Document 1 and Page 1 will be called 111_1_1.jpg. 
+- jpg files are names in the following format AFile_DocumentNum_PageNum for example Afile '111' Document 1 and Page 1 will be called 111_1_1.jpg.
+
+## Table Transformer Script
+
+**Purpose:** table_transformer.ipynb performs the table detection and extraction of text table information from the WAMEX database. This script operates off the back of the  Web_Scraping_Python.ipynb and Convert_to_jpg.ipynb to extract the tables from the images generated. 
+
+**Requirements:**
+- Python Libraries
+1. Standard Libraries [csv, json, os, re, shutil, pandas, numpy]
+2. Analysis Libraries [sklearn.metrics]
+3. Visulisation Libraries [matplotlib, seaborn]
+4. Image Processing and OCR [PIL, cv2, pytesseract]
+5. Transformers and Huggingface_hub [huggingface_hub, transformers]
+6. Pytorch [torch]
+
+**Pytesseract Setup:**
+1. The Pytesseract Executable is available at https://github.com/UB-Mannheim/tesseract/wiki download the 64bit .exe if using windows.
+2. Run the Tesseract Setup once downloaded this should be installed as C:\Program Files\Tesseract-OCR
+3. Once this is Setup set a PATH enviroment variable to C:\Program Files\Tesseract-OCR. System -> About -> Advanced system settings -> Enviroment Variables -> System variables -> Path -> Edit -> New -> paste the location of the Tesseract folder.
+4. In table_transformer.ipynb update TESSERACT_PATH to folder location r'C:/Program Files/Tesseract-OCR/tesseract'
+
+
+ 
+
+
