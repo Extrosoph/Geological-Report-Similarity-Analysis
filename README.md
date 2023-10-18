@@ -78,6 +78,15 @@ Develop a geology-focused system capable of interpreting table structures, extra
 - Within these folders are the extracted table images and they are named by 111_1_1_table_0 for Afile_DocNum_PageNum_table_num.
 - After detection and the images are extracted all .jpg files are placed in a folder called jpg_extracted for neatness.
 
+### Table Extraction
+
+**To Run Script:**
+- Ensure you have run Table Detection and A File Folders contain the extracted Tables in Cropped Images Folders.
+
+**Output:**
+- The Table Extraction Model will run over each of the tables contained within the Cropped Images files.
+- It will perform Table extraction and save these tables to csv in the A file folder.
+- Tables are extracted to csv and are named as Afile_Doc_Page_table_Num. For example 111_1_1_table_0.csv for Afile '111' Document 1 and Page 1 Table 1
 
 
  
