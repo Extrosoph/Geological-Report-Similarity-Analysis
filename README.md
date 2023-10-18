@@ -3,7 +3,8 @@ Develop a geology-focused system capable of interpreting table structures, extra
 
 
 ## WAMEX Web Scraping Script
-**Purpose:** Web_Scraping_Python.ipynb contains a script which is made to scrape Afile data from the WAMEX database. \n
+**Purpose:** Web_Scraping_Python.ipynb contains a script which is made to scrape Afile data from the WAMEX database.
+
 **Requirements:** 
 1. A list of A file Numbers of interest stored in an excel doc such as the example WAMEX Results.xlsx
 2. Python libraries [selenium, bs4, pandas, urllib, re, time, os]
