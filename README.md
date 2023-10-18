@@ -23,6 +23,14 @@ Develop a geology-focused system capable of interpreting table structures, extra
 The script will output all A files and their extracted files in a folder within the working directory called WAMEX_DATA_EXTRACTED. Files are called by their A File Number
 
 
-## Convert To Jpg SCript
+## Convert To Jpg Script
 **Purpose:** Convert_to_jpg.ipynb is built to convert the pdf documents to .jpg files which can then be fed into the table transformer model.
+**Requirements:**
+1. Python Libraries [shutil, pdf2image, os]
+2. WAMEX Web Scraping Script has been run and files are stored in WAMEX_DATA_EXTRACTED
 
+**To Run Script:**
+1. Update main_dir to the WAMEX_DATA_EXTRACTED file created from the WAMEX Web Scraping Script.
+
+**Output:**
+This script will convert all pdf documents into jpg files. Once converted it will store all the non jpg files in a folder called Original_files. jpg files are names in the following format AFile_DocumentNum_PageNum for example Afile '111' Document 1 and Page 1 will be called 111_1_1.jpg. 
