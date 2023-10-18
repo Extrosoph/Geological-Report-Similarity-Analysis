@@ -23,4 +23,6 @@ Develop a geology-focused system capable of interpreting table structures, extra
 The script will output all A files and their extracted files in a folder within the working directory called WAMEX_DATA_EXTRACTED. Files are called by their A File Number
 
 
+## Convert To Jpg SCript
+**Purpose:** Convert_to_jpg.ipynb is built to convert the pdf documents to .jpg files which can then be fed into the table transformer model.
 
