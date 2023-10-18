@@ -74,7 +74,10 @@ Develop a geology-focused system capable of interpreting table structures, extra
 - Ensure you have run Web_Scraping_Python.ipynb and table_transformer.ipynb. This will generate the WAMEX DATA in a file called WAMEX_DATA_EXTRACTED
 
 **Output:**
-- 
+- The Table Detection Model scans each .jpg file and will extract tables in a Cropped Images Subfolder. These Subfolders are named by the Afile_DocNum_PageNum so for tables contained on Afile '111' Document 1 and Page 1 these will be contained within '111_1_1 Cropped Images'.
+- Within these folders are the extracted table images and they are named by 111_1_1_table_0 for Afile_DocNum_PageNum_table_num.
+- After detection and the images are extracted all .jpg files are placed in a folder called jpg_extracted for neatness.
+
 
 
  
