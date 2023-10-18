@@ -41,7 +41,7 @@ Develop a geology-focused system capable of interpreting table structures, extra
 
 ## Table Transformer Script
 
-**Purpose:** table_transformer.ipynb performs the table detection and extraction of text table information from the WAMEX database. This script operates off the back of the  Web_Scraping_Python.ipynb and Convert_to_jpg.ipynb to extract the tables from the images generated. 
+**Purpose:** table_transformer.ipynb is located in the file _Capstone Project - Table Text Extraction_ and performs the table detection and extraction of text table information from the WAMEX database. This script operates off the back of the  Web_Scraping_Python.ipynb and Convert_to_jpg.ipynb to extract the tables from the images generated. 
 
 **Requirements:**
 - Python Libraries
@@ -51,12 +51,30 @@ Develop a geology-focused system capable of interpreting table structures, extra
 4. Image Processing and OCR [PIL, cv2, pytesseract]
 5. Transformers and Huggingface_hub [huggingface_hub, transformers]
 6. Pytorch [torch]
+- Pytesseract OCR
+
+### Setup 
+
+**Enviroment Setup:**
+1. Create a new enviroment (use whichever method you like; conda, anaconda, venv...)
+2. In command Prompt cd into the Geological-Report-Similarity-Analysis directory
+3. Run pip install -r requirements.txt
+4. This will take time to install all nessecary libraries. 
 
 **Pytesseract Setup:**
 1. The Pytesseract Executable is available at https://github.com/UB-Mannheim/tesseract/wiki download the 64bit .exe if using windows.
 2. Run the Tesseract Setup once downloaded this should be installed as C:\Program Files\Tesseract-OCR
 3. Once this is Setup set a PATH enviroment variable to C:\Program Files\Tesseract-OCR. System -> About -> Advanced system settings -> Enviroment Variables -> System variables -> Path -> Edit -> New -> paste the location of the Tesseract folder.
 4. In table_transformer.ipynb update TESSERACT_PATH to folder location r'C:/Program Files/Tesseract-OCR/tesseract'
+
+### Table Detection
+
+**To Run Script:**
+- Ensure you have updated DATA_PATH to be the path to the repository
+- Ensure you have run Web_Scraping_Python.ipynb and table_transformer.ipynb. This will generate the WAMEX DATA in a file called WAMEX_DATA_EXTRACTED
+
+**Output:**
+- 
 
 
  
