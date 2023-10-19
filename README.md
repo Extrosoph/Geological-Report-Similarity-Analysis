@@ -67,6 +67,10 @@ Develop a geology-focused system capable of interpreting table structures, extra
 3. Once this is Setup set a PATH enviroment variable to C:\Program Files\Tesseract-OCR. System -> About -> Advanced system settings -> Enviroment Variables -> System variables -> Path -> Edit -> New -> paste the location of the Tesseract folder.
 4. In table_transformer.ipynb update TESSERACT_PATH to folder location r'C:/Program Files/Tesseract-OCR/tesseract'
 
+**Paddle OCR Setup:**
+1. If you have CUDA enabled GPU please use pip install paddlepaddle-gpu (This is used in the requirements Script)
+2. If you do not have CUDA enabled GPU please use pip install paddlepaddle
+
 ### Table Detection
 
 **To Run Script:**
