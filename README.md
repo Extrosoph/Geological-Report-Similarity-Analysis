@@ -1,6 +1,11 @@
 # Geological-Report-Similarity-Analysis
 Develop a geology-focused system capable of interpreting table structures, extracting values, calculating similarity, and visualizing information through graphs, enabling data-driven analysis and decision-making.
 
+## Enviroment Setup:
+1. Create a new enviroment (use whichever method you like; conda, anaconda, venv...)
+2. In command Prompt cd into the Geological-Report-Similarity-Analysis directory
+3. Run pip install -r requirements.txt
+4. This will take time to install all nessecary libraries. 
 
 ## WAMEX Web Scraping Script
 **Purpose:** Web_Scraping_Python.ipynb contains a script which is made to scrape Afile data from the WAMEX database.
@@ -67,10 +72,7 @@ Develop a geology-focused system capable of interpreting table structures, extra
 ### Setup 
 
 **Enviroment Setup:**
-1. Create a new enviroment (use whichever method you like; conda, anaconda, venv...)
-2. In command Prompt cd into the Geological-Report-Similarity-Analysis directory
-3. Run pip install -r requirements.txt
-4. This will take time to install all nessecary libraries. 
+1. Ensure Enviroment is set up as above. 
 
 **Pytesseract Setup:**
 1. The Pytesseract Executable is available at https://github.com/UB-Mannheim/tesseract/wiki download the 64bit .exe if using windows.
