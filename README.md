@@ -92,6 +92,15 @@ Develop a geology-focused system capable of interpreting table structures, extra
 - It will perform Table extraction and save these tables to csv in the A file folder.
 - Tables are extracted to csv and are named as Afile_Doc_Page_table_Num. For example 111_1_1_table_0.csv for Afile '111' Document 1 and Page 1 Table 1
 
+### Evaluation Analysis and Report Generation
+
+** To Run Script:**
+- Ensure you have chosen one of the three methods within the table extraction methods (Tesseract / PaddleOCR / PaddleOCR with Bounding Boxes) and follow the script 'Evaluations for Text Extraction and Report Generation'
+
+** Output:**
+- A folder like "2.1 CSV Outputs" with all the generated tables in CSV format will be created. (If using Tesseract method)
+- Visualisations to show performance and score based on all three approached is shown within the script. 
+- A PDF report will be generated afterwards with all the extracted documents in one place by the name of the method used, for example "PaddleOCR.pdf" 
 
  
 
