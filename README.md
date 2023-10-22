@@ -1,9 +1,14 @@
 # Geological-Report-Similarity-Analysis
 Develop a geology-focused system capable of interpreting table structures, extracting values, calculating similarity, and visualizing information through graphs, enabling data-driven analysis and decision-making.
 
+## Enviroment Setup:
+1. Create a new enviroment (use whichever method you like; conda, anaconda, venv...)
+2. In command Prompt cd into the Geological-Report-Similarity-Analysis directory
+3. Run _pip install -r requirements.txt_
+4. This will take time to install all nessecary libraries. 
 
 ## WAMEX Web Scraping Script
-**Purpose:** Web_Scraping_Python.ipynb contains a script which is made to scrape Afile data from the WAMEX database.
+**Purpose:** Web_Scraping_Python.ipynb contains a script which is made to scrape 'Afile' data from the WAMEX database.
 
 **Requirements:** 
 1. A list of A file Numbers of interest stored in an excel doc such as the example WAMEX Results.xlsx
@@ -16,16 +21,17 @@ Develop a geology-focused system capable of interpreting table structures, extra
    - Set file to Path Variable in System variables.
 
 **To Run Script:**
-1. Ensure all libraries are installed
-2. Update firefox_path to the firefox executable
-3. Update wd to the working directory containing the WAMEX A File spreadsheet
+1. Ensure all libraries are installed.
+2. Update firefox_path to the firefox executable.
+3. Update wd to the working directory containing the WAMEX A File spreadsheet. (By default this is the current working directory)
 
 **Output:**
 - The script will output all A files and their extracted files in a folder within the working directory called WAMEX_DATA_EXTRACTED.
 - Files are called by their A File Number
 
 ## Extract PDFs from ZIP Files Script
-**Purpose:** zip_extract_pdfs.sh is a bash shell script that automatically scans throught the WAMEX_DATA_EXTRACTED folder .
+**Purpose:** zip_extract_pdfs.sh is a bash shell script that automatically scans throught the WAMEX_DATA_EXTRACTED folder.
+
 **Requirements:**
 1. Bash shell installed 
 2. have the bash executable directory in system PATH variable
@@ -67,10 +73,7 @@ Develop a geology-focused system capable of interpreting table structures, extra
 ### Setup 
 
 **Enviroment Setup:**
-1. Create a new enviroment (use whichever method you like; conda, anaconda, venv...)
-2. In command Prompt cd into the Geological-Report-Similarity-Analysis directory
-3. Run pip install -r requirements.txt
-4. This will take time to install all nessecary libraries. 
+1. Ensure Enviroment is set up as above. 
 
 **Pytesseract Setup:**
 1. The Pytesseract Executable is available at https://github.com/UB-Mannheim/tesseract/wiki download the 64bit .exe if using windows.
@@ -105,10 +108,10 @@ Develop a geology-focused system capable of interpreting table structures, extra
 
 ### Evaluation Analysis and Report Generation
 
-** To Run Script:**
+**To Run Script:**
 - Ensure you have chosen one of the three methods within the table extraction methods (Tesseract / PaddleOCR / PaddleOCR with Bounding Boxes) and follow the script 'Evaluations for Text Extraction and Report Generation'
 
-** Output:**
+**Output:**
 - A folder like "2.1 CSV Outputs" with all the generated tables in CSV format will be created. (If using Tesseract method)
 - Visualisations to show performance and score based on all three approached is shown within the script. 
 - A PDF report will be generated afterwards with all the extracted documents in one place by the name of the method used, for example "PaddleOCR.pdf" 
