@@ -108,10 +108,10 @@ Develop a geology-focused system capable of interpreting table structures, extra
 
 ### Evaluation Analysis and Report Generation
 
-** To Run Script:**
+**To Run Script:**
 - Ensure you have chosen one of the three methods within the table extraction methods (Tesseract / PaddleOCR / PaddleOCR with Bounding Boxes) and follow the script 'Evaluations for Text Extraction and Report Generation'
 
-** Output:**
+**Output:**
 - A folder like "2.1 CSV Outputs" with all the generated tables in CSV format will be created. (If using Tesseract method)
 - Visualisations to show performance and score based on all three approached is shown within the script. 
 - A PDF report will be generated afterwards with all the extracted documents in one place by the name of the method used, for example "PaddleOCR.pdf" 
