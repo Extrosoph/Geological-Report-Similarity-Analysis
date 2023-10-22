@@ -30,7 +30,8 @@ Develop a geology-focused system capable of interpreting table structures, extra
 - Files are called by their A File Number
 
 ## Extract PDFs from ZIP Files Script
-**Purpose:** zip_extract_pdfs.sh is a bash shell script that automatically scans throught the WAMEX_DATA_EXTRACTED folder .
+**Purpose:** zip_extract_pdfs.sh is a bash shell script that automatically scans throught the WAMEX_DATA_EXTRACTED folder.
+
 **Requirements:**
 1. Bash shell installed 
 2. have the bash executable directory in system PATH variable
