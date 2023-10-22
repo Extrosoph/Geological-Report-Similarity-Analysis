@@ -24,6 +24,17 @@ Develop a geology-focused system capable of interpreting table structures, extra
 - The script will output all A files and their extracted files in a folder within the working directory called WAMEX_DATA_EXTRACTED.
 - Files are called by their A File Number
 
+## Extract PDFs from ZIP Files Script
+**Purpose:** zip_extract_pdfs.sh is a bash shell script that automatically scans throught the WAMEX_DATA_EXTRACTED folder .
+**Requirements:**
+1. Bash shell installed 
+
+**To Run Script:**
+1. Provide execute permission to script in bash terminal
+2. Run the script from terminal
+
+**Output:**
+- This script will search through all the zip files in the folder and extract PDFs from within.
 
 ## Convert To Jpg Script
 **Purpose:** Convert_to_jpg.ipynb is built to convert the pdf documents to .jpg files which can then be fed into the table transformer model.
