@@ -28,6 +28,7 @@ Develop a geology-focused system capable of interpreting table structures, extra
 **Purpose:** zip_extract_pdfs.sh is a bash shell script that automatically scans throught the WAMEX_DATA_EXTRACTED folder .
 **Requirements:**
 1. Bash shell installed 
+2. have the bash executable directory in system PATH variable
 
 **To Run Script:**
 1. The code would be called by the web scaping script once it finished downloading all the WAMEX files.
