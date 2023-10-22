@@ -30,8 +30,7 @@ Develop a geology-focused system capable of interpreting table structures, extra
 1. Bash shell installed 
 
 **To Run Script:**
-1. Provide execute permission to script in bash terminal
-2. Run the script from terminal
+1. The code would be called by the web scaping script once it finished downloading all the WAMEX files.
 
 **Output:**
 - This script will search through all the zip files in the folder and extract PDFs from within.
