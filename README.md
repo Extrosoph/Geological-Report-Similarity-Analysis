@@ -4,7 +4,7 @@ Develop a geology-focused system capable of interpreting table structures, extra
 ## Enviroment Setup:
 1. Create a new enviroment (use whichever method you like; conda, anaconda, venv...)
 2. In command Prompt cd into the Geological-Report-Similarity-Analysis directory
-3. Run pip install -r requirements.txt
+3. Run _pip install -r requirements.txt_
 4. This will take time to install all nessecary libraries. 
 
 ## WAMEX Web Scraping Script
