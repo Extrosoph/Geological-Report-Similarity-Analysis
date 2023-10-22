@@ -8,7 +8,7 @@ Develop a geology-focused system capable of interpreting table structures, extra
 4. This will take time to install all nessecary libraries. 
 
 ## WAMEX Web Scraping Script
-**Purpose:** Web_Scraping_Python.ipynb contains a script which is made to scrape Afile data from the WAMEX database.
+**Purpose:** Web_Scraping_Python.ipynb contains a script which is made to scrape 'Afile' data from the WAMEX database.
 
 **Requirements:** 
 1. A list of A file Numbers of interest stored in an excel doc such as the example WAMEX Results.xlsx
@@ -21,9 +21,9 @@ Develop a geology-focused system capable of interpreting table structures, extra
    - Set file to Path Variable in System variables.
 
 **To Run Script:**
-1. Ensure all libraries are installed
-2. Update firefox_path to the firefox executable
-3. Update wd to the working directory containing the WAMEX A File spreadsheet
+1. Ensure all libraries are installed.
+2. Update firefox_path to the firefox executable.
+3. Update wd to the working directory containing the WAMEX A File spreadsheet. (By default this is the current working directory)
 
 **Output:**
 - The script will output all A files and their extracted files in a folder within the working directory called WAMEX_DATA_EXTRACTED.
