@@ -1,0 +1,16 @@
+Element,Detection Limit,Element,Detection Limit,Element,Detection Limit,Element,Detection Limit
+Ag,0.01,Cu,0.20,Na,0.01%,Sr,0.20
+AI,0.01%,Fe,0.01%,Nb,0.10,Ta,0.05
+As,0.20,Ga,0.05,Ni,0.20,Te,0.05
+Ba,10.0,Ge,0.05,P,10.0,Th,0.01
+Be,0.05,Hf,0.10,Pb,0.50,Ti,0.005%
+Bi,0.01,In,0.005,Rb,0.10,TI,0.02
+Ca,0.01%,K,0.01%,Re,0.002,0,0.10
+Cd,0.02,La,0.50,S,0.01%,V,1.00
+Ce,0.01,Li,0.20,Sb,0.05,W,0.10
+Co,0.10,Mg,0.01%,Sc,0.10,Y,0.10
+Cr,1.00,Mn,5.00,Se,1.00,Zn,2.00
+Cs,0.05,Mo,0.05,Sn,0.20,Zr,0.50
+Dy,0.05,Gd,0.05,Nd,0.10,Tb,0.01
+Er,0.03,Ho,0.01,Pr,0.03,Tm,0.01
+Eu,0.03,Lu,0.01,Sm,0.03,Yb,0.03

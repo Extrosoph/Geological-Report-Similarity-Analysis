@@ -1,0 +1,29 @@
+ From (m), To (m), Deform., From (m), To (m), Deform., From (m), To (m), Deform.
+ , , Low, 615.4, 615.5, High, 982.4, 982.5, Very High
+ , 1107, Weak, 615.5, 622, Mod-High, 982.5, 984.2, High
+ 107, 137, Low, 622, 646, Weak-Mod, 984.2, 1016.9, Weak
+ 137, 142, Weak, 646, 650, Moderate, 1016.9, 1030.3, High
+ 142, 218, Low, 650, 652.4, Mod-High, 1030.3, 1030.6, Very High
+ 218, 224, Weak, 652.4, 653.25, High, 1030.6, 1032.1, High
+ 224, 238.5, Low, 653.25, 663, Mod-High, 1032.1, 1032.3, Very High
+ 238.5, 247, Weak-Mod, 663, 717.5, Weak-Mod, 1032.3, 1036.7, Mod-High
+ 247, B17, Weak, 717.5, 717.65, High, 1036.7, 1038.7, High
+ B17, B20, Weak-Mod, 717.65, 719, High, 1038.7, 1039.1, Very High
+ B20, 401, Weak, 719, 719.4, Very High, 1039.1, 1043.9, High
+ 401, 419, Weak-Mod, 719.4, 720.6, High, 1043.9, 11089, Weak
+ 419, 445, Weak, 720.6, 729, Weak, 11089, 11093, Moderate
+ 445, 456, Moderate, 729, 747, Weak-Mod, 11093, 1141.75, Weak-Mod
+ 456, 470, Weak, 747, 766, Weak, 1141.75, 1142.4, Mod-High
+ 470, 481, Weak-Mod, 766, 768.1, Moderate, 1142.4, 1163.1, Weak-Mod
+ 481, 523, Weak, 768.1, 768.35, Mod-High, 1163.1, 1168.2, High
+ 523, 524, Weak-Mod, 768.35, 770.7, Moderate, 1168.2, 1168.7, Very High
+ 524, 531, Weak, 770.7, 823, Weak, 1168.7, 1169.6, High
+ 531, 540, Weak-Mod, 823, 928, Low, 1169.6, 1228.45, Weak
+ 540, 555.4, Weak, 928, 930, Weak-Mod, 1228.45, 1228.8, High
+ 555.4, 557.5, Weak-Mod, 930, 957.9, Weak, 1228.8, 1278.85, Weak
+ 557.5, 558.1, Moderate, 957.9, 966, Mod-High, 1278.85, 1294, Low
+ 558.1, 565.65, Weak-Mod, 966, 974.1, Moderate, 1294, 11370, Weak
+ 565.65, 580, Weak, 974.1, 978.4, High, 1370, 1381, Moderate
+ 580, 591, Mod-High, 978.4, 978.85, Weak, 1381, 1466, Weak
+ 591, 604, Weak-Mod, 978.85, 982.4, High, 1466, 41520, Low
+ 604, 615.4, Mod-High, , , , , , 

@@ -1,0 +1,8 @@
+﻿HoldID,From,To,lithology,Comment
+SMT428,0,252,MBP00,Pillow Basalt
+SMT428,252,260,FPQF0,"quartz dominant, felsic porphyry"
+SMT428,260,263,MBAH0,Basalt - Amphibole dominant
+SMT428,263,267.5,FPQF0,"quartz dominant, felsic porphyry"
+SMT428,267.5,398.5,MBAH0,Basalt - Amphibole dominant
+SMT428,398.5,428.2,NAVI,Navi run - No core recovery
+SMT428,428.2,494.8,MBAH0,Basalt - Amphibole dominant

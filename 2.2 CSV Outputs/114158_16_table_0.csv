@@ -1,0 +1,12 @@
+Hole ID,From,To,Interval,Grade,Accumulation,Comment
+m,m,m,Au ppm,gxm,,
+TD12952,73,73.4,0.4,0.43,0.17,Anomalous
+87.7,88.5,0.8,0.10,0.08,Anomalous,
+387.7,388.1,0.4,0.10,0.04,Anomalous,
+477,478,1,0.10,0.10,Anomalous,
+555,556,1,0.12,0.12,Anomalous,
+559,560,1,0.10,0.10,Anomalous,
+1238,1239,1,0.10,0.10,Anomalous,
+1249.7,1251,1.3,0.37,0.48,Anomalous,
+1451,1452,1,0.22,0.22,Anomalous,
+>0.10ppm Au is Anomalous,>1.00ppm Au is Significant,>5.00ppm Au is Mineralised,,,,

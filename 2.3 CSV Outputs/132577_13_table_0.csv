@@ -1,0 +1,8 @@
+HoleID,From,To,lithology,Comment
+SMT428,0,252,MBPOO,PillowBasalt
+SMT428,252,260,FPQFO,"Quartzdominant,felsicporphyry"
+SMT428,260,263,MBAHO,Basalt-Amphiboledominant
+SMT428,263,267.5,FPQFO,"Quartzdominant,felsicporphyry"
+SMT428,267.5,398.5,MBAHO,Basalt-Amphiboledominant
+SMT428,398.5,428.2,NAVI,Navirun-Nocorerecovery
+SMT428,428.2,494.8,MBAHO,Basalt-Amphiboledominant

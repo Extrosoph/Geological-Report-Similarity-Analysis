@@ -1,0 +1,22 @@
+From,To,,,
+Structure,Shear,Interpreted,,
+Depth,Depth,Comment,,
+Identifier,Fabric,Structure,,
+(m),(m),,,
+Jan East,,,,
+A,604.0,622.0,Unknown,Strain taken up by the low strength Kapai Slate
+Thrust,,,,
+Jan East,,,,
+B,650.0,663.0,"781, 0591",Intra-DCBshear
+Thrust,,,,
+C,717.5,720.6,Unknown|Unknown,Intra-DCBshear
+Jan Main,,,,
+D,974.1,984.2,"601, 0631",Significant offset of Victory Dolerite against Lunnon Basalt
+Fault,,,,
+Jan Main,,,,
+E,1016.9,1043.9,"671, 0601",Structural repetition of Lunnon Basalt against Lunnon Basalt
+Fault,,,,
+Intra-ultramafic shear possibly related to the intermediate,,,,
+F,1163.1,1169.6,Unknown|Unknown,
+intrusive emplacedcontactwithLunnonBasalt at 1132.3m,,,,
+TableZl4Hiahstrain,defo,,,

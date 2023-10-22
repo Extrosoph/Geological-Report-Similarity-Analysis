@@ -1,0 +1,26 @@
+" Depth From
+
+(m)"," Depth To
+
+(m)"," Interval
+
+(m)", Lithology, Stratigraphy
+ , 36.5, 36.5, Transported Regolith, Tertiary Cover
+ 36.5, 44.7, 8.2, Residual Regolith, Black Flag Beds
+ 44.7, 454.7, 410, Sediments, Black Flag Beds
+ 454.7, 936.3, 81.6, Basalt, Condensor Dolerite
+ 536.3, 542.9, 6.6, Felsic Porphyry, Porphyry
+ 942.9, 908, 15.1, Dolerite, Condensor Dolerite
+ 558, 618.4, 60.4, Granite, Athena Granite
+ 618.4, , 471.9, Dolerite, Condensor Dolerite
+ 1090.3, 1092.9, 2.6, Intermediate Porphyry, Porphyry
+ 1092.9, 1149.4, 56.5, Dolerite, Condensor Dolerite
+ 1149.4, 1156.9, 7.5, Felsic Porphyry, Porphyry
+ 1156.9, 1158.6, 5 er, Dolerite, Condensor Dolerite
+ 1158.6, 1163.2, 4.6, Felsic Porphyry, Porphyry
+ 1163.2, 1213, 49.8, Dolerite, Condensor Dolerite
+ 1213, 1235.1, 22.1, Felsic Porphyry, Porphyry
+ 1235.1, 1315.7, 80.6, Dolerite, Condensor Dolerite
+ 1315.7, 1445.3, 129.6, Basalt, Condensor Dolerite
+ 1445.3, 1452.9, 7.6, Sediments, Oroya Beds
+ , , 65.6, Basalt, Paringa Basalt
