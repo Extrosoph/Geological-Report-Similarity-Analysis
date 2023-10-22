@@ -44,6 +44,7 @@ Develop a geology-focused system capable of interpreting table structures, extra
 
 ## Convert To Jpg Script
 **Purpose:** Convert_to_jpg.ipynb is built to convert the pdf documents to .jpg files which can then be fed into the table transformer model.
+
 **Requirements:**
 1. Python Libraries [shutil, pdf2image, os]
 2. WAMEX Web Scraping Script has been run and files are stored in WAMEX_DATA_EXTRACTED
